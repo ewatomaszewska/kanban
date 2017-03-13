@@ -1,0 +1,41 @@
+body {
+  margin: 0 auto;
+  font-family: open sans;
+}
+#board {
+  margin: 0 auto;
+  background: #A3CCC1;
+  color: #fff;
+  text-align: center;
+  width: 1200px;
+}
+.btn {
+  background: transparent;
+}
+.column-container {
+  min-height: 600px;
+
+
+}
+.column {
+  display: inline-block;
+  border: 1px solid;
+  width: 250px;
+  position: relative;
+  transform: translateY(10px);
+
+}
+/*
+.todo {
+ background-color: #A3CCC1;
+}
+.active {
+ background-color: #F6AAFF;
+}
+.done {
+ background-color: #3DB294;
+}
+.karteczka {
+ background-color: #FFF080;
+}
+*/
